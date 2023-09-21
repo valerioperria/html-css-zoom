@@ -56,20 +56,21 @@
 .user{
     position: relative;
 }
-.pinco img{
+.name {
+    background-color: rgba(128, 128, 128, 0.511);
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    z-index: 3;
+    position: absolute;
+    padding: 3px;
+    bottom: 7px;
+    color: white;
+}    
+
+.name img{
     height: 1rem;
-    position: absolute;
-    bottom: 24px;
-    left: 2px;
-    z-index: 4;
-    color: white;
-}
-.pallo{
-    position: absolute;
-    bottom: 24px;
-    left: 24px;
-    z-index: 4;
-    color: white;
 }
 
 /* footer */
